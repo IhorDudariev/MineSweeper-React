@@ -7,7 +7,7 @@ export default class App extends React.Component{
     constructor(props) {
         super(props);
         this.state = {
-            level:{"mines":10, "width": 16, "height": 16},
+            level:{"mines":40, "width": 16, "height": 16},
             timerRunning: false,
             secondsElapsed: 0,
             startFlag: false,
